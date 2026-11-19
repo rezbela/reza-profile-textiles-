@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reza | Textile Printing Specialist, Fabric Artist &amp; Content Creator</title>
+  <meta name="description" content="Personal profile of Reza — Textile Printing Specialist (Color & Chemical Formulation), Fabric Artist, and Nature & Culture Content Creator based in Savar, Dhaka, Bangladesh." />
+
+  <!-- Google Fonts: Inter & Playfair Display for refined editorial warmth -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: {
+              DEFAULT: '#1B4332',
+              medium: '#2D6A4F',
+              light: '#E8F0EC',
+            },
+            sand: {
+              DEFAULT: '#FAF8F5',
+              card: '#FFFFFF',
+              subtle: '#F2EFE9',
+            },
+            charcoal: {
+              DEFAULT: '#1F2933',
+              muted: '#52606D',
+            },
+            terracotta: {
+              DEFAULT: '#B07D4F',
+              light: '#F7EFE7',
+            },
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            serif: ['Playfair Display', 'Georgia', 'serif'],
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-sand text-charcoal font-sans antialiased selection:bg-forest selection:text-white">
+
+  <!-- ==================== STICKY TOP NAVIGATION ==================== -->
+  <header class="sticky top-0 z-50 bg-sand/95 backdrop-blur-md border-b border-stone-200/80">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 sm:h-20">
+        <!-- Brand / Name -->
+        <a href="#top" class="flex items-center gap-2.5 group">
+          <span class="w-9 h-9 rounded-xl bg-forest text-white flex items-center justify-center font-serif font-bold text-lg shadow-sm group-hover:bg-forest-medium transition-colors">
+            R
+          </span>
+          <div class="flex flex-col">
+            <span class="font-serif font-bold text-xl tracking-tight text-forest leading-none">Reza</span>
+            <span class="text-[11px] uppercase tracking-widest text-terracotta font-medium mt-0.5">Profile &amp; Craft</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-charcoal-muted">
+          <a href="#about" class="hover:text-forest transition-colors py-1">About</a>
+          <a href="#expertise" class="hover:text-forest transition-colors py-1">Expertise</a>
+          <a href="#creative" class="hover:text-forest transition-colors py-1">Creative Work</a>
+          <a href="#contact" class="px-4 py-2 rounded-xl bg-forest text-white hover:bg-forest-medium transition-colors shadow-sm">
+            Contact
+          </a>
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <button
+          id="mobile-menu-btn"
+          type="button"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          class="md:hidden p-2.5 rounded-xl text-charcoal hover:bg-sand-subtle focus:outline-none focus:ring-2 focus:ring-forest/30 transition-colors"
+        >
+          <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-sand border-b border-stone-200 px-4 pt-2 pb-5 space-y-1.5 shadow-sm">
+      <a href="#about" class="mobile-nav-link block px-4 py-3 rounded-xl text-base font-medium text-charcoal hover:bg-sand-subtle hover:text-forest transition-colors">About</a>
+      <a href="#expertise" class="mobile-nav-link block px-4 py-3 rounded-xl text-base font-medium text-charcoal hover:bg-sand-subtle hover:text-forest transition-colors">Expertise</a>
+      <a href="#creative" class="mobile-nav-link block px-4 py-3 rounded-xl text-base font-medium text-charcoal hover:bg-sand-subtle hover:text-forest transition-colors">Creative Work</a>
+      <a href="#contact" class="mobile-nav-link block px-4 py-3 rounded-xl text-base font-medium bg-forest text-white hover:bg-forest-medium transition-colors mt-2 text-center">Contact</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="relative overflow-hidden pt-12 pb-16 sm:pt-20 sm:pb-24 lg:pt-24 lg:pb-28 border-b border-stone-200/70">
+      <!-- Subtle Decorative Textile / Botanical Accent -->
+      <div class="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full bg-forest-light/70 blur-3xl"></div>
+      <div class="pointer-events-none absolute -bottom-24 -left-24 w-80 h-80 rounded-full bg-terracotta-light/80 blur-3xl"></div>
+
+      <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+          <!-- Left Content -->
+          <div class="lg:col-span-8 space-y-6">
+            <!-- Location Pill -->
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-forest-light text-forest text-xs sm:text-sm font-medium border border-forest/15">
+              <svg class="w-4 h-4 text-terracotta shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+              </svg>
+              <span>Savar, Dhaka, Bangladesh</span>
+            </div>
+
+            <!-- Name & Tagline -->
+            <div class="space-y-3">
+              <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-charcoal tracking-tight">
+                Reza
+              </h1>
+              <p class="text-lg sm:text-xl lg:text-2xl font-medium text-forest leading-snug">
+                Textile Printing Specialist <span class="text-terracotta font-normal">(Color &amp; Chemical Formulation)</span>
+                <span class="mx-1.5 text-stone-400">|</span>
+                Fabric Artist
+                <span class="mx-1.5 text-stone-400">|</span>
+                Nature &amp; Culture Content Creator
+              </p>
+            </div>
+
+            <!-- Concise Intro Summary -->
+            <p class="text-base sm:text-lg text-charcoal-muted leading-relaxed max-w-2xl">
+              Bringing over 25 years of precision in textile color preparation, chemical formulation, and traditional surface craft together with calm, authentic visual storytelling on nature, rural heritage, and culture.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="flex flex-wrap items-center gap-3.5 pt-2">
+              <a
+                href="#expertise"
+                class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-forest text-white font-medium text-sm sm:text-base hover:bg-forest-medium transition-all shadow-sm hover:shadow"
+              >
+                <span>Explore Expertise</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </a>
+
+              <a
+                href="#creative"
+                class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-white text-forest border border-forest/25 font-medium text-sm sm:text-base hover:bg-forest-light/60 transition-all shadow-sm"
+              >
+                <svg class="w-5 h-5 text-terracotta" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                </svg>
+                <span>Visit Nisorgor Chokhe</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Highlight Card (Artisanal & Technical Emblem) -->
+          <div class="lg:col-span-4">
+            <div class="bg-white rounded-2xl p-6 sm:p-8 border border-stone-200/90 shadow-sm relative overflow-hidden">
+              <div class="absolute top-0 inset-x-0 h-1.5 bg-gradient-to-r from-forest via-forest-medium to-terracotta"></div>
+
+              <div class="flex items-center gap-4 mb-6">
+                <!-- Clean SVG Geometric Textile Motif Avatar -->
+                <div class="w-16 h-16 rounded-2xl bg-forest-light border border-forest/15 flex items-center justify-center shrink-0">
+                  <svg class="w-9 h-9 text-forest" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18m9-9H3m15.364-6.364L5.636 18.364m12.728 0L5.636 5.636" />
+                    <circle cx="12" cy="12" r="4" class="fill-terracotta/20 stroke-terracotta" />
+                  </svg>
+                </div>
+                <div>
+                  <span class="text-xs font-semibold uppercase tracking-wider text-terracotta">At a Glance</span>
+                  <h2 class="font-serif text-xl font-bold text-charcoal">Craft &amp; Vision</h2>
+                </div>
+              </div>
+
+              <dl class="space-y-4 text-sm">
+                <div class="flex items-start justify-between gap-4 pb-3 border-b border-stone-100">
+                  <dt class="text-charcoal-muted">Industry Experience</dt>
+                  <dd class="font-semibold text-forest text-right">25+ Years in Textile Printing</dd>
+                </div>
+                <div class="flex items-start justify-between gap-4 pb-3 border-b border-stone-100">
+                  <dt class="text-charcoal-muted">Technical Focus</dt>
+                  <dd class="font-semibold text-charcoal text-right">Color &amp; Chemical Formulation</dd>
+                </div>
+                <div class="flex items-start justify-between gap-4 pb-3 border-b border-stone-100">
+                  <dt class="text-charcoal-muted">Artisan Crafts</dt>
+                  <dd class="font-semibold text-charcoal text-right">Fabric Painting, Block, Batik &amp; Tie-Dye</dd>
+                </div>
+                <div class="flex items-start justify-between gap-4">
+                  <dt class="text-charcoal-muted">YouTube Channel</dt>
+                  <dd class="font-semibold text-terracotta text-right">Nisorgor Chokhe</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ME SECTION ==================== -->
+    <section id="about" class="py-16 sm:py-24">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-white rounded-3xl p-7 sm:p-10 lg:p-12 border border-stone-200/80 shadow-sm">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+            <div class="lg:col-span-4 space-y-3">
+              <span class="inline-block text-xs font-semibold uppercase tracking-widest text-terracotta">
+                01 / Biography
+              </span>
+              <h2 class="font-serif text-3xl sm:text-4xl font-bold text-forest">
+                About Me
+              </h2>
+              <div class="w-12 h-1 rounded-full bg-terracotta"></div>
+              <p class="text-sm text-charcoal-muted pt-2">
+                Bridging technical textile chemistry with traditional handcraft and visual storytelling from Savar, Dhaka.
+              </p>
+            </div>
+
+            <div class="lg:col-span-8 space-y-5 text-base sm:text-lg text-charcoal-muted leading-relaxed">
+              <p class="text-charcoal font-normal">
+                With more than <strong class="font-semibold text-forest">25 years of hands-on experience</strong> in the textile printing industry, I specialize in color preparation, chemical formulation, and traditional fabric ornamentation. Over the decades, my work has centered on achieving precise shade consistency, reliable print durability, and expressive surface design across woven and heritage textiles.
+              </p>
+              <p>
+                Alongside my professional craft in fabric painting, block printing, batik, and tie-dyeing, I create thoughtful visual stories on nature, rural life, travel, historical places, and educational topics through my YouTube channel, <strong class="font-semibold text-forest">Nisorgor Chokhe</strong>—sharing calm, authentic perspectives with a global audience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CORE SKILLS & EXPERTISE ==================== -->
+    <section id="expertise" class="py-16 sm:py-24 bg-sand-subtle/70 border-y border-stone-200/70">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="max-w-2xl mb-12 space-y-3">
+          <span class="inline-block text-xs font-semibold uppercase tracking-widest text-terracotta">
+            02 / Capabilities
+          </span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-forest">
+            Core Skills &amp; Expertise
+          </h2>
+          <p class="text-base sm:text-lg text-charcoal-muted">
+            A balanced blend of industrial textile formulation, hands-on surface artistry, digital storytelling, and continuous learning.
+          </p>
+        </div>
+
+        <!-- 4 Structured Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+          <!-- Card 1: Textile Printing & Formulation -->
+          <article class="bg-white rounded-2xl p-6 sm:p-8 border border-stone-200/90 shadow-sm hover:border-forest/40 transition-colors flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-4 mb-5">
+                <div class="w-12 h-12 rounded-xl bg-forest-light text-forest flex items-center justify-center">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
+                  </svg>
+                </div>
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-forest-light text-forest">
+                  25+ Years Experience
+                </span>
+              </div>
+
+              <h3 class="font-serif text-xl sm:text-2xl font-bold text-charcoal mb-3">
+                Textile Printing &amp; Formulation
+              </h3>
+              <p class="text-sm sm:text-base text-charcoal-muted mb-5 leading-relaxed">
+                Deep technical command over industrial and artisanal textile printing processes with rigorous attention to color repeatability.
+              </p>
+
+              <ul class="space-y-2.5 text-sm sm:text-base text-charcoal">
+                <li class="flex items-center gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-terracotta shrink-0"></span>
+                  <span>Color preparation &amp; shade matching</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-terracotta shrink-0"></span>
+                  <span>Chemical formulation &amp; paste balancing</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-terracotta shrink-0"></span>
+                  <span>Dye accuracy &amp; colorfastness control</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-terracotta shrink-0"></span>
+                  <span>Print quality consistency across batches</span>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Card 2: Surface & Craft Techniques -->
+          <article class="bg-white rounded-2xl p-6 sm:p-8 border border-stone-200/90 shadow-sm hover:border-forest/40 transition-colors flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-4 mb-5">
+                <div class="w-12 h-12 rounded-xl bg-terracotta-light text-terracotta flex items-center justify-center">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42" />
+                  </svg>
+                </div>
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-terracotta-light text-terracotta">
+                  Artisan Surface Design
+                </span>
+              </div>
+
+              <h3 class="font-serif text-xl sm:text-2xl font-bold text-charcoal mb-3">
+                Surface &amp; Craft Techniques
+              </h3>
+              <p class="text-sm sm:text-base text-charcoal-muted mb-5 leading-relaxed">
+                Traditional and expressive hand-ornamentation methods applied to woven cotton, silk, and heritage textiles.
+              </p>
+
+              <ul class="space-y-2.5 text-sm sm:text-base text-charcoal">
+                <li class="flex items-center gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-forest shrink-0"></span>
+                  <span>Hand-painted <strong>Fabric Painting</strong></span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-forest shrink-0"></span>
+                  <span>Traditional wooden <strong>Block Printing</strong></span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-forest shrink-0"></span>
+                  <span>Wax-resist <strong>Batik</strong> artistry</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-forest shrink-0"></span>
+                  <span>Patterned <strong>Tie-Dyeing</strong> on woven fabrics</span>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Card 3: Visual Storytelling & Content -->
+          <article class="bg-white rounded-2xl p-6 sm:p-8 border border-stone-200/90 shadow-sm hover:border-forest/40 transition-colors flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-4 mb-5">
+                <div class="w-12 h-12 rounded-xl bg-forest-light text-forest flex items-center justify-center">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
+                  </svg>
+                </div>
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-forest-light text-forest">
+                  Digital Media
+                </span>
+              </div>
+
+              <h3 class="font-serif text-xl sm:text-2xl font-bold text-charcoal mb-3">
+                Visual Storytelling &amp; Content
+              </h3>
+              <p class="text-sm sm:text-base text-charcoal-muted mb-5 leading-relaxed">
+                Capturing the quiet beauty of landscapes, rural traditions, and educational insights for international viewers.
+              </p>
+
+              <ul class="space-y-2.5 text-sm sm:text-base text-charcoal">
+                <li class="flex items-center gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-terracotta shrink-0"></span>
+                  <span>Nature &amp; rural photography and videography</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-terracotta shrink-0"></span>
+                  <span>Video editing &amp; pacing for calm viewing</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-terracotta shrink-0"></span>
+                  <span>Educational &amp; cultural storytelling</span>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Card 4: Languages & Continuous Learning -->
+          <article class="bg-white rounded-2xl p-6 sm:p-8 border border-stone-200/90 shadow-sm hover:border-forest/40 transition-colors flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-4 mb-5">
+                <div class="w-12 h-12 rounded-xl bg-terracotta-light text-terracotta flex items-center justify-center">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                  </svg>
+                </div>
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-terracotta-light text-terracotta">
+                  Lifelong Growth
+                </span>
+              </div>
+
+              <h3 class="font-serif text-xl sm:text-2xl font-bold text-charcoal mb-3">
+                Languages &amp; Continuous Learning
+              </h3>
+              <p class="text-sm sm:text-base text-charcoal-muted mb-5 leading-relaxed">
+                Dedicated to cross-cultural communication and expanding creative and digital competencies.
+              </p>
+
+              <ul class="space-y-2.5 text-sm sm:text-base text-charcoal">
+                <li class="flex items-center gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-forest shrink-0"></span>
+                  <span><strong>English</strong> communication for global collaboration</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-forest shrink-0"></span>
+                  <span><strong>Japanese</strong> language proficiency development</span>
+                </li>
+                <li class="flex items-center gap-2.5">
+                  <span class="w-1.5 h-1.5 rounded-full bg-forest shrink-0"></span>
+                  <span>Ongoing exploration of creative &amp; digital tools</span>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CREATIVE WORK — NISORGOR CHOKHE ==================== -->
+    <section id="creative" class="py-16 sm:py-24">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-forest text-white rounded-3xl p-7 sm:p-10 lg:p-14 shadow-md relative overflow-hidden">
+          <!-- Subtle Organic Background Rings -->
+          <div class="pointer-events-none absolute -right-16 -bottom-16 w-72 h-72 rounded-full border border-white/10"></div>
+          <div class="pointer-events-none absolute -right-6 -bottom-6 w-48 h-48 rounded-full border border-white/10"></div>
+
+          <div class="relative grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            <div class="lg:col-span-8 space-y-5">
+              <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 text-amber-200 text-xs font-semibold uppercase tracking-wider">
+                <span>03 / Creative Showcase &amp; YouTube</span>
+              </div>
+
+              <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
+                Nisorgor Chokhe
+              </h2>
+
+              <p class="text-base sm:text-lg text-stone-200 leading-relaxed max-w-2xl">
+                Through <strong class="text-white font-semibold">Nisorgor Chokhe</strong>, I document quiet natural landscapes, rivers, village life, historical places, and educational subjects. My aim is to combine calm observation, authenticity, and clear storytelling for viewers around the world.
+              </p>
+
+              <!-- Thematic Tags -->
+              <div class="flex flex-wrap gap-2.5 pt-2">
+                <span class="px-3.5 py-1.5 rounded-xl bg-white/10 border border-white/15 text-sm text-stone-100">
+                  Nature &amp; Rivers
+                </span>
+                <span class="px-3.5 py-1.5 rounded-xl bg-white/10 border border-white/15 text-sm text-stone-100">
+                  Village Life
+                </span>
+                <span class="px-3.5 py-1.5 rounded-xl bg-white/10 border border-white/15 text-sm text-stone-100">
+                  Travel
+                </span>
+                <span class="px-3.5 py-1.5 rounded-xl bg-white/10 border border-white/15 text-sm text-stone-100">
+                  Historical Places
+                </span>
+                <span class="px-3.5 py-1.5 rounded-xl bg-white/10 border border-white/15 text-sm text-stone-100">
+                  Educational Topics
+                </span>
+              </div>
+            </div>
+
+            <!-- Channel Action Box -->
+            <div class="lg:col-span-4">
+              <div class="bg-white/10 backdrop-blur-sm border border-white/15 rounded-2xl p-6 space-y-4">
+                <div class="w-12 h-12 rounded-xl bg-terracotta text-white flex items-center justify-center shadow-sm">
+                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                  </svg>
+                </div>
+
+                <div>
+                  <h3 class="font-serif text-xl font-bold text-white">Watch &amp; Subscribe</h3>
+                  <p class="text-sm text-stone-200 mt-1">
+                    Explore visual stories from Bangladesh and beyond on YouTube.
+                  </p>
+                </div>
+
+                <!-- Replace href="#" with your actual YouTube Channel URL -->
+                <a
+                  href="https://www.youtube.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-white text-forest font-semibold text-sm hover:bg-sand transition-colors shadow-sm"
+                >
+                  <span>YouTube: Nisorgor Chokhe</span>
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+                <p class="text-[11px] text-stone-300 text-center">
+                  * Replace link with your direct YouTube channel URL
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT & LINKS SECTION ==================== -->
+    <section id="contact" class="py-16 sm:py-24 bg-sand-subtle/70 border-t border-stone-200/70">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl mb-12 space-y-3">
+          <span class="inline-block text-xs font-semibold uppercase tracking-widest text-terracotta">
+            04 / Connect
+          </span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-forest">
+            Contact &amp; Links
+          </h2>
+          <p class="text-base sm:text-lg text-charcoal-muted">
+            Open to professional inquiries in textile printing, surface craft collaborations, and creative storytelling connections.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <!-- Location Card -->
+          <div class="bg-white rounded-2xl p-6 border border-stone-200/90 shadow-sm">
+            <div class="w-10 h-10 rounded-xl bg-forest-light text-forest flex items-center justify-center mb-4">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+              </svg>
+            </div>
+            <h3 class="text-xs font-semibold uppercase tracking-wider text-charcoal-muted mb-1">Location</h3>
+            <p class="font-semibold text-charcoal text-base">Savar, Dhaka, Bangladesh</p>
+          </div>
+
+          <!-- Email Card with Copy Helper -->
+          <div class="bg-white rounded-2xl p-6 border border-stone-200/90 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-xl bg-terracotta-light text-terracotta flex items-center justify-center mb-4">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                </svg>
+              </div>
+              <h3 class="text-xs font-semibold uppercase tracking-wider text-charcoal-muted mb-1">Email</h3>
+              <a id="email-link" href="mailto:your.email@example.com" class="font-semibold text-forest hover:underline text-sm sm:text-base break-all">
+                your.email@example.com
+              </a>
+            </div>
+            <button
+              id="copy-email-btn"
+              type="button"
+              class="mt-3 inline-flex items-center gap-1.5 text-xs font-medium text-terracotta hover:text-forest transition-colors self-start"
+            >
+              <span>Copy email address</span>
+            </button>
+          </div>
+
+          <!-- YouTube Channel Card -->
+          <div class="bg-white rounded-2xl p-6 border border-stone-200/90 shadow-sm">
+            <div class="w-10 h-10 rounded-xl bg-forest-light text-forest flex items-center justify-center mb-4">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+              </svg>
+            </div>
+            <h3 class="text-xs font-semibold uppercase tracking-wider text-charcoal-muted mb-1">YouTube Channel</h3>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="font-semibold text-forest hover:underline text-base inline-flex items-center gap-1">
+              <span>Nisorgor Chokhe</span>
+              <span aria-hidden="true">&nearr;</span>
+            </a>
+          </div>
+
+          <!-- Social / Portfolio Links Card -->
+          <div class="bg-white rounded-2xl p-6 border border-stone-200/90 shadow-sm">
+            <div class="w-10 h-10 rounded-xl bg-terracotta-light text-terracotta flex items-center justify-center mb-4">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+              </svg>
+            </div>
+            <h3 class="text-xs font-semibold uppercase tracking-wider text-charcoal-muted mb-1">Social &amp; Portfolio</h3>
+            <div class="flex flex-wrap gap-3 text-sm font-semibold text-forest">
+              <a href="#" target="_blank" rel="noopener noreferrer" class="hover:underline">LinkedIn</a>
+              <span class="text-stone-300">&bull;</span>
+              <a href="#" target="_blank" rel="noopener noreferrer" class="hover:underline">Facebook</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== CLEAN FOOTER ==================== -->
+  <footer class="bg-forest text-stone-200 py-8 border-t border-forest-medium">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
+      <div class="flex items-center gap-2">
+        <span class="font-serif font-bold text-white text-base">Reza</span>
+        <span class="text-stone-400">|</span>
+        <span>Savar, Dhaka, Bangladesh</span>
+      </div>
+      <p class="text-stone-300 text-xs sm:text-sm">
+        &copy; <span id="current-year"></span> Reza. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Toast Notification (replaces alert()) -->
+  <div
+    id="toast"
+    role="status"
+    aria-live="polite"
+    class="fixed bottom-5 right-5 z-50 hidden px-4 py-3 rounded-xl bg-charcoal text-white text-sm font-medium shadow-lg border border-white/10"
+  >
+    Email copied to clipboard!
+  </div>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Mobile Menu Toggle
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const iconOpen = document.getElementById('menu-icon-open');
+    const iconClose = document.getElementById('menu-icon-close');
+    const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+    function toggleMobileMenu() {
+      const isHidden = mobileMenu.classList.contains('hidden');
+      mobileMenu.classList.toggle('hidden', !isHidden);
+      iconOpen.classList.toggle('hidden', isHidden);
+      iconClose.classList.toggle('hidden', !isHidden);
+      menuBtn.setAttribute('aria-expanded', String(isHidden));
+    }
+
+    menuBtn.addEventListener('click', toggleMobileMenu);
+    mobileLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        if (!mobileMenu.classList.contains('hidden')) {
+          toggleMobileMenu();
+        }
+      });
+    });
+
+    // Copy Email Helper using execCommand fallback for reliable iframe/local support
+    const copyBtn = document.getElementById('copy-email-btn');
+    const emailLink = document.getElementById('email-link');
+    const toast = document.getElementById('toast');
+    let toastTimer;
+
+    copyBtn.addEventListener('click', () => {
+      const emailText = emailLink.textContent.trim();
+      const tempInput = document.createElement('input');
+      tempInput.value = emailText;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      try {
+        document.execCommand('copy');
+        toast.textContent = 'Copied: ' + emailText;
+        toast.classList.remove('hidden');
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => {
+          toast.classList.add('hidden');
+        }, 2600);
+      } catch (err) {
+        console.error('Copy failed', err);
+      }
+      document.body.removeChild(tempInput);
+    });
+  </script>
+</body>
+</html>
